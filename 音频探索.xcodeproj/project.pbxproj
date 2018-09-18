@@ -15,6 +15,12 @@
 		596A152A2150A77C00949395 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 596A15292150A77C00949395 /* main.m */; };
 		596A15342150A77C00949395 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 596A15332150A77C00949395 /* ____Tests.m */; };
 		596A153F2150A77C00949395 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 596A153E2150A77C00949395 /* ____UITests.m */; };
+		596A154E2150A7E500949395 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596A154D2150A7E500949395 /* AudioToolbox.framework */; };
+		596A15502150D09800949395 /* test.wav in Resources */ = {isa = PBXBuildFile; fileRef = 596A154F2150D09800949395 /* test.wav */; };
+		596A15522150D37E00949395 /* message.wav in Resources */ = {isa = PBXBuildFile; fileRef = 596A15512150D37E00949395 /* message.wav */; };
+		596A15542150E03A00949395 /* BraveHeart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 596A15532150E03A00949395 /* BraveHeart.mp3 */; };
+		596A15572150E16700949395 /* test3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 596A15562150E16700949395 /* test3.m4a */; };
+		596A15592150E1CA00949395 /* test4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 596A15582150E1CA00949395 /* test4.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,13 @@
 		596A153A2150A77C00949395 /* 音频探索UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "音频探索UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		596A153E2150A77C00949395 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		596A15402150A77C00949395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		596A154D2150A7E500949395 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		596A154F2150D09800949395 /* test.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = test.wav; sourceTree = "<group>"; };
+		596A15512150D37E00949395 /* message.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = message.wav; sourceTree = "<group>"; };
+		596A15532150E03A00949395 /* BraveHeart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BraveHeart.mp3; sourceTree = "<group>"; };
+		596A15552150E07300949395 /* test2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = test2.wav; sourceTree = "<group>"; };
+		596A15562150E16700949395 /* test3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = test3.m4a; sourceTree = "<group>"; };
+		596A15582150E1CA00949395 /* test4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = test4.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				596A154E2150A7E500949395 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +99,7 @@
 				596A15322150A77C00949395 /* 音频探索Tests */,
 				596A153D2150A77C00949395 /* 音频探索UITests */,
 				596A15182150A77B00949395 /* Products */,
+				596A154C2150A7E500949395 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +125,12 @@
 				596A15252150A77C00949395 /* LaunchScreen.storyboard */,
 				596A15282150A77C00949395 /* Info.plist */,
 				596A15292150A77C00949395 /* main.m */,
+				596A154F2150D09800949395 /* test.wav */,
+				596A15532150E03A00949395 /* BraveHeart.mp3 */,
+				596A15552150E07300949395 /* test2.wav */,
+				596A15512150D37E00949395 /* message.wav */,
+				596A15562150E16700949395 /* test3.m4a */,
+				596A15582150E1CA00949395 /* test4.m4a */,
 			);
 			path = "音频探索";
 			sourceTree = "<group>";
@@ -130,6 +151,14 @@
 				596A15402150A77C00949395 /* Info.plist */,
 			);
 			path = "音频探索UITests";
+			sourceTree = "<group>";
+		};
+		596A154C2150A7E500949395 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				596A154D2150A7E500949395 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +264,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				596A15502150D09800949395 /* test.wav in Resources */,
 				596A15272150A77C00949395 /* LaunchScreen.storyboard in Resources */,
+				596A15542150E03A00949395 /* BraveHeart.mp3 in Resources */,
+				596A15522150D37E00949395 /* message.wav in Resources */,
 				596A15242150A77C00949395 /* Assets.xcassets in Resources */,
+				596A15592150E1CA00949395 /* test4.m4a in Resources */,
 				596A15222150A77B00949395 /* Main.storyboard in Resources */,
+				596A15572150E16700949395 /* test3.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +468,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AA4ZTC3V63;
 				INFOPLIST_FILE = "音频探索/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +486,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AA4ZTC3V63;
 				INFOPLIST_FILE = "音频探索/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
